@@ -1,0 +1,85 @@
+<html> 
+    <head>
+        <script type="text/javascript" src="mainPage.js"></script>
+        <link rel="stylesheet" type="text/css" href="mainPage.css">
+    </head>
+    <body bgcolor="#424ef4">
+        <div id="topHeading">
+        <h1>Бизнес съветник </h1>
+        </div>
+        <br>
+        <div id="topHeading1">
+        <h1> Какъв бизнес да започнеш </h1>
+        </div>
+        <div>
+        <p id="questionsHeading">Въпроси </p>
+        </div>
+        <ol>
+             <!-- <li id="questionsList">В коя област на България живееш?</li>
+                <br>                 
+                <select id="location"> 
+                <option value="default">---Изберете област---</option>
+                <option value="blagoevgrad">Област Благоевград</option>
+                <option value="burgas">Област Бургас</option>
+                <option value="varna">Област Варна</option>
+                <option value="vidin">Област Видин</option>
+                <option value="vraca">Област Враца</option>
+                <option value="gabrovo">Област Габрово</option>
+                <option value="dobrich">Област Добрич</option>
+                <option value="kurdjali">Област Кърджали</option>
+                <option value="kustendil">Област Кюстендил</option>
+                <option value="lovech">Област Ловеч</option>
+                <option value="montana">Област Монтана</option>
+                <option value="pernik">Област Перник</option>
+                <option value="pleven">Област Плевен</option>
+                <option value="plovdiv">Област Пловдив</option>
+                <option value="razgrad">Област Разград</option>
+                <option value="ruse">Област Русе</option>
+                <option value="silistra">Област Силистра</option>
+                <option value="sliven">Област Сливен</option>
+                <option value="smolqn">Област Смолян</option>
+                <option value="sofiiska">Софийска област</option>
+                <option value="sofia">Област София</option>
+                <option value="turgovishte">Област Търговище</option>
+                <option value="haskovo">Област Хасково</option>
+                <option value="shumen">Област Шумен</option>
+                <option value="iambol">Област Ямбол</option>
+                </select>                  -->
+
+                <br>
+                <br>
+            <li id="questionsList">С какво образование си? </li>
+                <select id="education">
+                <option value="default">---Избери Образование---</option>
+                <option value="sredno">Средно</option>
+                <option value="bachelor">Висше - Бакалавър</option>
+                <option value="master">Висше - Магистър </option>
+                <option value="masterOrAbove">По-висока степен</option>
+
+                </select>
+                <br>
+                <br>
+             <!-- <li id="questionsList">На колко си години? </li>
+                <select id="age">
+                <option value="default">---Възраст---</option>
+                <option value="teen">от 15 до 20</option>
+                <option value="twenties">от 20 до 30</option>
+                <option value="thirties">от 30 до 40</option>
+                <option value="forties">над 40</option>
+                </select>
+                <br>
+                <br>  -->
+            <li id="questionsList">С колко средства разполагаш за инвестиране?</li>
+                <select id="money">
+                <option value="default">---Инвестиция---</option>
+                <option value="thousand">от 100 до 1 000 лв.</option>
+                <option value="tenThousand">от 1000 до 10 000 лв.</option>
+                <option value="overTenThousand">над 10 000 лв.</option>
+                </select>
+        </ol>
+    <button id="resultsButton" onclick="userResults()">Резултати</button>
+    <br>
+    <br>
+    <textarea id="results" onkeyup="textAreaAdjust(this)" style="overflow:hidden"> </textarea>
+    </body>
+</html>
